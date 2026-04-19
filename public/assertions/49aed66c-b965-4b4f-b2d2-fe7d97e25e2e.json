@@ -1,11 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    {
-      "issuanceDate": "https://www.w3.org/2018/credentials#issuanceDate",
-      "expirationDate": "https://www.w3.org/2018/credentials#expirationDate"
-    }
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
   "id": "https://oipy-teacher.github.io/badges/public/assertions/49aed66c-b965-4b4f-b2d2-fe7d97e25e2e.json",
   "type": [
@@ -21,7 +17,6 @@
     "url": "https://oipy-teacher.github.io/badges/public/issuers/627ce267-cac2-4ce7-92c5-49e2a04cd996",
     "email": "pc.no.address.1031@gmail.com"
   },
-  "issuanceDate": "2026-04-19T12:53:51.937Z",
   "validFrom": "2026-04-19T12:53:51.937Z",
   "name": "まじで最後にしたい",
   "credentialSubject": {
@@ -50,7 +45,7 @@
         "narrative": "認証されるかな"
       },
       "image": {
-        "id": "http://127.0.0.1:3456/public/uploads/d34f8a36-e874-43ca-82c3-5e0d6e4018b5.png",
+        "id": "https://oipy-teacher.github.io/badges/public/uploads/d34f8a36-e874-43ca-82c3-5e0d6e4018b5.png",
         "type": "Image"
       },
       "tag": [
@@ -73,7 +68,7 @@
             "ResultDescription"
           ],
           "name": "最終テスト",
-          "resultType": "PassFail",
+          "resultType": "Status",
           "requiredValue": "認証",
           "requiredLevel": "合格",
           "allowedValue": [
@@ -95,11 +90,11 @@
   "proof": [
     {
       "type": "DataIntegrityProof",
-      "created": "2026-04-19T20:43:55Z",
+      "created": "2026-04-19T23:46:43Z",
       "verificationMethod": "did:web:oipy-teacher.github.io:badges:public:issuers:627ce267-cac2-4ce7-92c5-49e2a04cd996#key-0",
       "cryptosuite": "eddsa-rdfc-2022",
       "proofPurpose": "assertionMethod",
-      "proofValue": "z9kUYHUv1fDR6vcvh39Dk3B84zSUJHhHB5RpnjxME4WRKojAi7D1zbgPmqPoXKyAEeXCVEzQ4UBLhxyqaiCrxTmd"
+      "proofValue": "z4ye4is61FxE7zqGcoe8vHG8qPvGPf8MM4n3cN6vqQwCJmSqkryn1SdRYCi3cks8wV9K4MHRjee8CZ6DHB8a7YV3D"
     }
   ]
 }

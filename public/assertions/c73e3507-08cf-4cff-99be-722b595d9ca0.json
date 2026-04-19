@@ -1,0 +1,99 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "https://oipy-teacher.github.io/badges/public/assertions/c73e3507-08cf-4cff-99be-722b595d9ca0.json",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "did:web:oipy-teacher.github.io:badges:public:issuers:df455dd8-1691-4a16-bdbc-f5a2dbe0a27b",
+    "type": [
+      "Profile"
+    ],
+    "name": "ラストにしたいくん",
+    "url": "https://oipy-teacher.github.io/badges/public/issuers/df455dd8-1691-4a16-bdbc-f5a2dbe0a27b",
+    "description": "試験です"
+  },
+  "validFrom": "2026-04-19T21:30:07.334Z",
+  "name": "願い",
+  "credentialSubject": {
+    "type": [
+      "AchievementSubject"
+    ],
+    "id": "urn:uuid:c73e3507-08cf-4cff-99be-722b595d9ca0",
+    "identifier": [
+      {
+        "type": "IdentityObject",
+        "identityType": "emailAddress",
+        "identityHash": "sha256$60cbb9be8610dab30b13a2c29375b24c2e62b4afd14d10e87b83767ba9779de4",
+        "hashed": true,
+        "salt": "d7ba3004f18264af7663f86b5e8cf9d6"
+      }
+    ],
+    "achievement": {
+      "id": "https://oipy-teacher.github.io/badges/public/badge-classes/91def77e-0de2-40ba-b925-5492f7b32b95.json",
+      "type": [
+        "Achievement"
+      ],
+      "name": "願い",
+      "description": "自作バッジ",
+      "criteria": {
+        "id": "https://oipy-teacher.github.io/badges/public/badge-classes/91def77e-0de2-40ba-b925-5492f7b32b95.json#criteria",
+        "narrative": "検証通るかどうか"
+      },
+      "image": {
+        "id": "https://oipy-teacher.github.io/badges/public/uploads/8655825d-878b-4c85-ba9b-5ce4c50e6ab8.png",
+        "type": "Image"
+      },
+      "tag": [
+        "AI",
+        "OBv3"
+      ],
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetName": "バイブコーディング",
+          "targetUrl": "https://oipy-teacher.github.io/badges/public/skills/%E3%83%90%E3%82%A4%E3%83%96%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0"
+        }
+      ],
+      "resultDescription": [
+        {
+          "id": "https://oipy-teacher.github.io/badges/public/badge-classes/91def77e-0de2-40ba-b925-5492f7b32b95.json#result-0",
+          "type": [
+            "ResultDescription"
+          ],
+          "name": "発行",
+          "resultType": "Status",
+          "requiredValue": "ベアリファイ",
+          "requiredLevel": "ベアリファイ",
+          "allowedValue": [
+            "まる",
+            "ばつ"
+          ]
+        }
+      ]
+    }
+  },
+  "credentialStatus": {
+    "id": "https://oipy-teacher.github.io/badges/public/status-list/df455dd8-1691-4a16-bdbc-f5a2dbe0a27b.json#0",
+    "type": "BitstringStatusListEntry",
+    "statusPurpose": "revocation",
+    "statusListIndex": "0",
+    "statusListCredential": "https://oipy-teacher.github.io/badges/public/status-list/df455dd8-1691-4a16-bdbc-f5a2dbe0a27b.json"
+  },
+  "proof": [
+    {
+      "type": "DataIntegrityProof",
+      "created": "2026-04-19T23:47:17Z",
+      "verificationMethod": "did:web:oipy-teacher.github.io:badges:public:issuers:df455dd8-1691-4a16-bdbc-f5a2dbe0a27b#key-0",
+      "cryptosuite": "eddsa-rdfc-2022",
+      "proofPurpose": "assertionMethod",
+      "proofValue": "z4Ew9GmzaVhfGmVxXj7S2SWsvFyXmeMh2SyeNSMfpiK2Lcbx1MeQSZyNrPLaN498aDwdGa1Hef9ProuRbdKaMcHXf"
+    }
+  ]
+}

@@ -1,11 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    {
-      "issuanceDate": "https://www.w3.org/2018/credentials#issuanceDate",
-      "expirationDate": "https://www.w3.org/2018/credentials#expirationDate"
-    }
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
   "id": "https://oipy-teacher.github.io/badges/public/assertions/4630efb5-1e57-4a52-ac8c-589a76645116.json",
   "type": [
@@ -21,7 +17,6 @@
     "url": "https://oipy-teacher.github.io/badges/public/issuers/627ce267-cac2-4ce7-92c5-49e2a04cd996",
     "email": "pc.no.address.1031@gmail.com"
   },
-  "issuanceDate": "2026-04-19T13:09:15.070Z",
   "validFrom": "2026-04-19T13:09:15.070Z",
   "name": "再確認バッジ",
   "credentialSubject": {
@@ -61,11 +56,11 @@
   "proof": [
     {
       "type": "DataIntegrityProof",
-      "created": "2026-04-19T20:43:55Z",
+      "created": "2026-04-19T23:46:43Z",
       "verificationMethod": "did:web:oipy-teacher.github.io:badges:public:issuers:627ce267-cac2-4ce7-92c5-49e2a04cd996#key-0",
       "cryptosuite": "eddsa-rdfc-2022",
       "proofPurpose": "assertionMethod",
-      "proofValue": "z2ZZ3TmapYFqHybj4i5J7HJopiHkSH8tXbd3FmctrN9nmCj9yFs2Hw8hypED5vyDo1GEkGittu3ggM8oRSF7TsGWp"
+      "proofValue": "z3Tjfr3DkDYvqpDX5LEwtbTj7ZogD4GraoudNZuG4GqFUKVtSypPXmMfqwgDXuLQZ4rhJaxipmzdrzXXzFMxZgLbk"
     }
   ]
 }

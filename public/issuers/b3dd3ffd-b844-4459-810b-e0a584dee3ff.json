@@ -1,0 +1,12 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "did:web:oipy-teacher.github.io:badges:public:issuers:b3dd3ffd-b844-4459-810b-e0a584dee3ff",
+  "type": [
+    "Profile"
+  ],
+  "name": "1edチャレンジ",
+  "url": "https://oipy-teacher.github.io/badges/public/issuers/b3dd3ffd-b844-4459-810b-e0a584dee3ff"
+}

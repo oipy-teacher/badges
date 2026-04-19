@@ -1,11 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    {
-      "issuanceDate": "https://www.w3.org/2018/credentials#issuanceDate",
-      "expirationDate": "https://www.w3.org/2018/credentials#expirationDate"
-    }
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
   "id": "https://oipy-teacher.github.io/badges/public/assertions/95f6a783-1efe-40ab-9747-0c7d0ef6a639.json",
   "type": [
@@ -22,7 +18,6 @@
     "email": "test@example.ne.jp",
     "description": "テストテストテスト"
   },
-  "issuanceDate": "2026-04-19T12:45:20.547Z",
   "validFrom": "2026-04-19T12:45:20.547Z",
   "name": "BitstringStatusList確認",
   "credentialSubject": {
@@ -62,11 +57,11 @@
   "proof": [
     {
       "type": "DataIntegrityProof",
-      "created": "2026-04-19T20:43:55Z",
+      "created": "2026-04-19T23:47:17Z",
       "verificationMethod": "did:web:oipy-teacher.github.io:badges:public:issuers:61278d2c-17b0-4372-9185-af403892cca8#key-0",
       "cryptosuite": "eddsa-rdfc-2022",
       "proofPurpose": "assertionMethod",
-      "proofValue": "z4hn7ZYGmxcrXuiX2pwB1ZMe9NiAMep84NWjdJ1aowwjCpKrJvLZnAfJAQY5wqQtpCP3CE9PbBnZdciw1X1mQTXkC"
+      "proofValue": "z3NJqcka63vgmwavRZs34fsJKoEMQQDuSztAcpEf2s7tF4hMo3RgYBs4KEVgA4bC1Doeb1TkH9NqxRDBxcCg6Wz3U"
     }
   ]
 }

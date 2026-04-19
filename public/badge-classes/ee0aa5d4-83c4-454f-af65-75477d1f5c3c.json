@@ -1,11 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    {
-      "issuanceDate": "https://www.w3.org/2018/credentials#issuanceDate",
-      "expirationDate": "https://www.w3.org/2018/credentials#expirationDate"
-    }
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
   "id": "https://oipy-teacher.github.io/badges/public/badge-classes/ee0aa5d4-83c4-454f-af65-75477d1f5c3c.json",
   "type": [
@@ -41,7 +37,7 @@
         "ResultDescription"
       ],
       "name": "最終テスト",
-      "resultType": "PassFail",
+      "resultType": "Status",
       "requiredValue": "認証",
       "requiredLevel": "合格",
       "allowedValue": [
