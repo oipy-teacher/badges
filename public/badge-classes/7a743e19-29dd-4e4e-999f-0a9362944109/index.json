@@ -7,14 +7,14 @@
       "expirationDate": "https://www.w3.org/2018/credentials#expirationDate"
     }
   ],
-  "id": "https://oipy-teacher.github.io/badges/public/badge-classes/ca23cc99-905f-41ea-b9ce-c6b065a43f4c.json",
+  "id": "https://oipy-teacher.github.io/badges/public/badge-classes/7a743e19-29dd-4e4e-999f-0a9362944109.json",
   "type": [
     "Achievement"
   ],
-  "name": "BitstringStatusList確認",
-  "description": "最終版",
+  "name": "再確認バッジ",
+  "description": "DB更新後",
   "criteria": {
-    "id": "https://oipy-teacher.github.io/badges/public/badge-classes/ca23cc99-905f-41ea-b9ce-c6b065a43f4c.json#criteria",
-    "narrative": "完了"
+    "id": "https://oipy-teacher.github.io/badges/public/badge-classes/7a743e19-29dd-4e4e-999f-0a9362944109.json#criteria",
+    "narrative": "OK"
   }
 }

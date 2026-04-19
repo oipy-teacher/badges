@@ -1,0 +1,71 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    {
+      "issuanceDate": "https://www.w3.org/2018/credentials#issuanceDate",
+      "expirationDate": "https://www.w3.org/2018/credentials#expirationDate"
+    }
+  ],
+  "id": "https://oipy-teacher.github.io/badges/public/assertions/981b00bc-01c2-47b2-b1a3-4b12139b5d52.json",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "did:web:oipy-teacher.github.io:badges:public:issuers:627ce267-cac2-4ce7-92c5-49e2a04cd996",
+    "type": [
+      "Profile"
+    ],
+    "name": "おいぴー先生",
+    "url": "https://oipy-teacher.github.io/badges/public/issuers/627ce267-cac2-4ce7-92c5-49e2a04cd996",
+    "email": "pc.no.address.1031@gmail.com"
+  },
+  "issuanceDate": "2026-04-19T13:07:21.407Z",
+  "validFrom": "2026-04-19T13:07:21.407Z",
+  "name": "再確認バッジ",
+  "credentialSubject": {
+    "type": [
+      "AchievementSubject"
+    ],
+    "id": "urn:uuid:981b00bc-01c2-47b2-b1a3-4b12139b5d52",
+    "identifier": [
+      {
+        "type": "IdentityObject",
+        "identityType": "emailAddress",
+        "identityHash": "sha256$1063f93356dfcfa6b0410166f3113465801eb61f672d5d36bd3b0ea48be3a289",
+        "hashed": true,
+        "salt": "df700e620b6970ff0bd53ee671d4f939"
+      }
+    ],
+    "achievement": {
+      "id": "https://oipy-teacher.github.io/badges/public/badge-classes/7a743e19-29dd-4e4e-999f-0a9362944109.json",
+      "type": [
+        "Achievement"
+      ],
+      "name": "再確認バッジ",
+      "description": "DB更新後",
+      "criteria": {
+        "id": "https://oipy-teacher.github.io/badges/public/badge-classes/7a743e19-29dd-4e4e-999f-0a9362944109.json#criteria",
+        "narrative": "OK"
+      }
+    }
+  },
+  "credentialStatus": {
+    "id": "https://oipy-teacher.github.io/badges/public/status-list/627ce267-cac2-4ce7-92c5-49e2a04cd996.json#3",
+    "type": "BitstringStatusListEntry",
+    "statusPurpose": "revocation",
+    "statusListIndex": "3",
+    "statusListCredential": "https://oipy-teacher.github.io/badges/public/status-list/627ce267-cac2-4ce7-92c5-49e2a04cd996.json"
+  },
+  "proof": [
+    {
+      "type": "DataIntegrityProof",
+      "created": "2026-04-19T20:43:55Z",
+      "verificationMethod": "did:web:oipy-teacher.github.io:badges:public:issuers:627ce267-cac2-4ce7-92c5-49e2a04cd996#key-0",
+      "cryptosuite": "eddsa-rdfc-2022",
+      "proofPurpose": "assertionMethod",
+      "proofValue": "z5TmqmKw8FYZzpd3XLqXYfqRXYkPy6Ab6dEScs4T2hXY4S74KRzLx24h3zDMKcW6B2dMfW8Vz2MeDHa7DBUVAbGN8"
+    }
+  ]
+}

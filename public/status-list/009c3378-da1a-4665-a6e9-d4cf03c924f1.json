@@ -2,25 +2,27 @@
   "@context": [
     "https://www.w3.org/ns/credentials/v2"
   ],
-  "id": "https://oipy-teacher.github.io/badges/public/status-list/009c3378-da1a-4665-a6e9-d4cf03c924f1",
+  "id": "https://oipy-teacher.github.io/badges/public/status-list/009c3378-da1a-4665-a6e9-d4cf03c924f1.json",
   "type": [
     "VerifiableCredential",
     "BitstringStatusListCredential"
   ],
   "issuer": "did:web:oipy-teacher.github.io:badges:public:issuers:009c3378-da1a-4665-a6e9-d4cf03c924f1",
-  "validFrom": "2026-04-19T12:56:33.346Z",
+  "validFrom": "2026-04-19T20:43:55.568Z",
   "credentialSubject": {
-    "id": "https://oipy-teacher.github.io/badges/public/status-list/009c3378-da1a-4665-a6e9-d4cf03c924f1#list",
+    "id": "https://oipy-teacher.github.io/badges/public/status-list/009c3378-da1a-4665-a6e9-d4cf03c924f1.json#list",
     "type": "BitstringStatusList",
     "statusPurpose": "revocation",
     "encodedList": "uH4sIAAAAAAAAE-3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAIC3AYbSVKsAQAAA"
   },
-  "proof": {
-    "type": "DataIntegrityProof",
-    "created": "2026-04-19T12:56:33Z",
-    "verificationMethod": "did:web:oipy-teacher.github.io:badges:public:issuers:009c3378-da1a-4665-a6e9-d4cf03c924f1#key-0",
-    "cryptosuite": "eddsa-rdfc-2022",
-    "proofPurpose": "assertionMethod",
-    "proofValue": "z3WJmr5v3snFk4jN4CW16b4tuFX4MvN37H5455N4TbvCicesb1u2T9jxSvepztAZJcw8vGCDF37S6hGHRJnANYmnd"
-  }
+  "proof": [
+    {
+      "type": "DataIntegrityProof",
+      "created": "2026-04-19T20:43:55Z",
+      "verificationMethod": "did:web:oipy-teacher.github.io:badges:public:issuers:009c3378-da1a-4665-a6e9-d4cf03c924f1#key-0",
+      "cryptosuite": "eddsa-rdfc-2022",
+      "proofPurpose": "assertionMethod",
+      "proofValue": "z4ckWNNsnC6H7XvKcHegbmaxLkyiKFgbdKawArcfEiD13DJUktPhXQKwBAbADnKF3FQ5eh2zaP6bUS3541YkYSWBq"
+    }
+  ]
 }

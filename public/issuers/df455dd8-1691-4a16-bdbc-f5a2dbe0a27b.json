@@ -7,12 +7,11 @@
       "expirationDate": "https://www.w3.org/2018/credentials#expirationDate"
     }
   ],
-  "id": "did:web:oipy-teacher.github.io:badges:public:issuers:61278d2c-17b0-4372-9185-af403892cca8",
+  "id": "did:web:oipy-teacher.github.io:badges:public:issuers:df455dd8-1691-4a16-bdbc-f5a2dbe0a27b",
   "type": [
     "Profile"
   ],
-  "name": "テスト",
-  "url": "https://oipy-teacher.github.io/badges/public/issuers/61278d2c-17b0-4372-9185-af403892cca8",
-  "email": "test@example.ne.jp",
-  "description": "テストテストテスト"
+  "name": "ラストにしたいくん",
+  "url": "https://oipy-teacher.github.io/badges/public/issuers/df455dd8-1691-4a16-bdbc-f5a2dbe0a27b",
+  "description": "試験です"
 }
