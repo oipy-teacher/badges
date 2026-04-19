@@ -1,0 +1,16 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "https://oipy-teacher.github.io/badges/public/badge-classes/c95db718-d122-497b-9ff3-eac7fceb9d29",
+  "type": [
+    "Achievement"
+  ],
+  "name": "Fix確認バッジ",
+  "description": "safe-mode修正後",
+  "criteria": {
+    "id": "https://oipy-teacher.github.io/badges/public/badge-classes/c95db718-d122-497b-9ff3-eac7fceb9d29#criteria",
+    "narrative": "完了"
+  }
+}

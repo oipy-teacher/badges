@@ -1,0 +1,119 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://w3id.org/vc/status-list/2021/v1"
+  ],
+  "id": "https://oipy-teacher.github.io/badges/public/assertions/db80d342-e7cd-4c36-b0ee-8fd086c4a530",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "did:web:oipy-teacher.github.io:badges:public:issuers:61278d2c-17b0-4372-9185-af403892cca8",
+    "type": [
+      "Profile"
+    ],
+    "name": "テスト",
+    "url": "https://oipy-teacher.github.io/badges/public/issuers/61278d2c-17b0-4372-9185-af403892cca8",
+    "email": "test@example.ne.jp",
+    "description": "テストテストテスト"
+  },
+  "validFrom": "2026-04-19T11:21:01.342Z",
+  "name": "テスト作成",
+  "credentialSubject": {
+    "type": [
+      "AchievementSubject"
+    ],
+    "id": "urn:uuid:db80d342-e7cd-4c36-b0ee-8fd086c4a530",
+    "identifier": [
+      {
+        "type": "IdentityObject",
+        "identityType": "emailAddress",
+        "identityHash": "sha256$e94d68066057e8dba8299699d03d7708e8d720abca3efdc3f17eca0c470375e7",
+        "hashed": true,
+        "salt": "e4c256b7a02a039beec7e1335dd7dc14"
+      }
+    ],
+    "achievement": {
+      "id": "https://oipy-teacher.github.io/badges/public/badge-classes/3de350e2-7d8a-4d0c-b622-9ca2a655e45b",
+      "type": [
+        "Achievement"
+      ],
+      "name": "テスト作成",
+      "description": "オープンバッジ作成機能が動くかの確認",
+      "criteria": {
+        "id": "https://oipy-teacher.github.io/badges/public/badge-classes/3de350e2-7d8a-4d0c-b622-9ca2a655e45b#criteria",
+        "narrative": "v3完全準拠"
+      },
+      "image": {
+        "id": "https://oipy-teacher.github.io/badges/public/uploads/96212743-3008-4c27-8b1b-cf396f758df7.png",
+        "type": "Image"
+      },
+      "tag": [
+        "テスト",
+        "AI",
+        "ノーコード",
+        "Vibe coding"
+      ],
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetName": "AI",
+          "targetUrl": "https://claude.ai/login",
+          "targetFramework": "アプリ作成",
+          "targetCode": "完成"
+        }
+      ],
+      "resultDescription": [
+        {
+          "id": "https://oipy-teacher.github.io/badges/public/badge-classes/3de350e2-7d8a-4d0c-b622-9ca2a655e45b#result-0",
+          "type": [
+            "ResultDescription"
+          ],
+          "name": "完成",
+          "resultType": "PassFail",
+          "requiredValue": "稼働",
+          "requiredLevel": "エラーなし"
+        }
+      ]
+    },
+    "narrative": "テストテストテスト",
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "value": "100",
+        "achievedLevel": "完成"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": [
+        "Evidence"
+      ],
+      "id": "https://sites.google.com/shotoku.ed.jp/oikawa-no-jyugyo/%E3%83%9B%E3%83%BC%E3%83%A0?pli=1&authuser=1",
+      "name": "グーグルサイト",
+      "description": "昔のやつ"
+    }
+  ],
+  "credentialStatus": {
+    "id": "https://oipy-teacher.github.io/badges/public/status-list/61278d2c-17b0-4372-9185-af403892cca8#3",
+    "type": "StatusList2021Entry",
+    "statusPurpose": "revocation",
+    "statusListIndex": "3",
+    "statusListCredential": "https://oipy-teacher.github.io/badges/public/status-list/61278d2c-17b0-4372-9185-af403892cca8"
+  },
+  "proof": {
+    "type": "DataIntegrityProof",
+    "created": "2026-04-19T12:09:55Z",
+    "verificationMethod": "did:web:oipy-teacher.github.io:badges:public:issuers:61278d2c-17b0-4372-9185-af403892cca8#key-0",
+    "cryptosuite": "eddsa-rdfc-2022",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z46vEEtfUukZAcrH19239q3Tm2JkqQKbRsuXjKQsoHCB2DPU4arNp8gywN3sR6zHktUqHnd4BR7z63ts9ZsVLzvVZ"
+  }
+}

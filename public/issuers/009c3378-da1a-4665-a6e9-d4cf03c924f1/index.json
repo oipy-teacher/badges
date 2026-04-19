@@ -1,0 +1,13 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "did:web:oipy-teacher.github.io:badges:public:issuers:009c3378-da1a-4665-a6e9-d4cf03c924f1",
+  "type": [
+    "Profile"
+  ],
+  "name": "Test University",
+  "url": "https://oipy-teacher.github.io/badges/public/issuers/009c3378-da1a-4665-a6e9-d4cf03c924f1",
+  "email": "test@example.com"
+}

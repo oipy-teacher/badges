@@ -1,0 +1,16 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "https://oipy-teacher.github.io/badges/public/badge-classes/ee20e028-36c3-421d-9e3b-6ea281d4ec91",
+  "type": [
+    "Achievement"
+  ],
+  "name": "Test Badge",
+  "description": "A test badge",
+  "criteria": {
+    "id": "https://oipy-teacher.github.io/badges/public/badge-classes/ee20e028-36c3-421d-9e3b-6ea281d4ec91#criteria",
+    "narrative": "Complete the test"
+  }
+}

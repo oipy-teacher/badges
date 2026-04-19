@@ -1,0 +1,14 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "did:web:oipy-teacher.github.io:badges:public:issuers:61278d2c-17b0-4372-9185-af403892cca8",
+  "type": [
+    "Profile"
+  ],
+  "name": "テスト",
+  "url": "https://oipy-teacher.github.io/badges/public/issuers/61278d2c-17b0-4372-9185-af403892cca8",
+  "email": "test@example.ne.jp",
+  "description": "テストテストテスト"
+}

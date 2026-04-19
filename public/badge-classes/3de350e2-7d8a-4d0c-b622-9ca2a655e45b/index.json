@@ -1,0 +1,49 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "https://oipy-teacher.github.io/badges/public/badge-classes/3de350e2-7d8a-4d0c-b622-9ca2a655e45b",
+  "type": [
+    "Achievement"
+  ],
+  "name": "テスト作成",
+  "description": "オープンバッジ作成機能が動くかの確認",
+  "criteria": {
+    "id": "https://oipy-teacher.github.io/badges/public/badge-classes/3de350e2-7d8a-4d0c-b622-9ca2a655e45b#criteria",
+    "narrative": "v3完全準拠"
+  },
+  "image": {
+    "id": "https://oipy-teacher.github.io/badges/public/uploads/96212743-3008-4c27-8b1b-cf396f758df7.png",
+    "type": "Image"
+  },
+  "tag": [
+    "テスト",
+    "AI",
+    "ノーコード",
+    "Vibe coding"
+  ],
+  "alignment": [
+    {
+      "type": [
+        "Alignment"
+      ],
+      "targetName": "AI",
+      "targetUrl": "https://claude.ai/login",
+      "targetFramework": "アプリ作成",
+      "targetCode": "完成"
+    }
+  ],
+  "resultDescription": [
+    {
+      "id": "https://oipy-teacher.github.io/badges/public/badge-classes/3de350e2-7d8a-4d0c-b622-9ca2a655e45b#result-0",
+      "type": [
+        "ResultDescription"
+      ],
+      "name": "完成",
+      "resultType": "PassFail",
+      "requiredValue": "稼働",
+      "requiredLevel": "エラーなし"
+    }
+  ]
+}

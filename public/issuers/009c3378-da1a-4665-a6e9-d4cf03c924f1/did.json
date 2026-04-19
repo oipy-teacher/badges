@@ -1,0 +1,21 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1"
+  ],
+  "id": "did:web:oipy-teacher.github.io:badges:public:issuers:009c3378-da1a-4665-a6e9-d4cf03c924f1",
+  "verificationMethod": [
+    {
+      "id": "did:web:oipy-teacher.github.io:badges:public:issuers:009c3378-da1a-4665-a6e9-d4cf03c924f1#key-0",
+      "type": "Multikey",
+      "controller": "did:web:oipy-teacher.github.io:badges:public:issuers:009c3378-da1a-4665-a6e9-d4cf03c924f1",
+      "publicKeyMultibase": "z6Mkp2kTbmTFcRKcmSaKkZV8cYmmshdoJVQY8zJxUj2dFNTT"
+    }
+  ],
+  "assertionMethod": [
+    "did:web:oipy-teacher.github.io:badges:public:issuers:009c3378-da1a-4665-a6e9-d4cf03c924f1#key-0"
+  ],
+  "authentication": [
+    "did:web:oipy-teacher.github.io:badges:public:issuers:009c3378-da1a-4665-a6e9-d4cf03c924f1#key-0"
+  ]
+}
