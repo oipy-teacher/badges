@@ -1,0 +1,46 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "https://oipy-teacher.github.io/badges/public/badge-classes/8686f334-3b24-4bb6-ab14-d0a04d6d8040",
+  "type": [
+    "Achievement"
+  ],
+  "name": "最終テスト",
+  "description": "てっすと",
+  "criteria": {
+    "id": "https://oipy-teacher.github.io/badges/public/badge-classes/8686f334-3b24-4bb6-ab14-d0a04d6d8040#criteria",
+    "narrative": "完了するか"
+  },
+  "image": {
+    "id": "https://oipy-teacher.github.io/badges/public/uploads/2d07be6c-c06b-4888-a080-7e7d592334a7.png",
+    "type": "Image"
+  },
+  "tag": [
+    "AI",
+    "完了",
+    "認証"
+  ],
+  "alignment": [
+    {
+      "type": [
+        "Alignment"
+      ],
+      "targetName": "ノーコード",
+      "targetUrl": "https://oipy-teacher.github.io/badges/public/skills/%E3%83%8E%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89"
+    }
+  ],
+  "resultDescription": [
+    {
+      "id": "https://oipy-teacher.github.io/badges/public/badge-classes/8686f334-3b24-4bb6-ab14-d0a04d6d8040#result-0",
+      "type": [
+        "ResultDescription"
+      ],
+      "name": "最終確認",
+      "resultType": "PassFail",
+      "requiredValue": "完了",
+      "requiredLevel": "合格"
+    }
+  ]
+}
