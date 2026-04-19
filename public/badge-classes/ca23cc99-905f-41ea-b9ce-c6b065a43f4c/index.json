@@ -1,0 +1,16 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "https://oipy-teacher.github.io/badges/public/badge-classes/ca23cc99-905f-41ea-b9ce-c6b065a43f4c",
+  "type": [
+    "Achievement"
+  ],
+  "name": "BitstringStatusList確認",
+  "description": "最終版",
+  "criteria": {
+    "id": "https://oipy-teacher.github.io/badges/public/badge-classes/ca23cc99-905f-41ea-b9ce-c6b065a43f4c#criteria",
+    "narrative": "完了"
+  }
+}

@@ -1,10 +1,9 @@
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    "https://w3id.org/vc/status-list/2021/v1"
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
-  "id": "https://oipy-teacher.github.io/badges/public/assertions/b4eae179-bc87-4973-a642-035ad5938ec6",
+  "id": "https://oipy-teacher.github.io/badges/public/assertions/55210870-ec54-4dec-92a1-7d787a5a753f",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
@@ -19,13 +18,13 @@
     "email": "test@example.ne.jp",
     "description": "テストテストテスト"
   },
-  "validFrom": "2026-04-19T11:17:29.040Z",
-  "name": "Fix確認バッジ",
+  "validFrom": "2026-04-19T12:39:42.677Z",
+  "name": "公開URL確認",
   "credentialSubject": {
     "type": [
       "AchievementSubject"
     ],
-    "id": "urn:uuid:b4eae179-bc87-4973-a642-035ad5938ec6",
+    "id": "urn:uuid:55210870-ec54-4dec-92a1-7d787a5a753f",
     "identifier": [
       {
         "type": "IdentityObject",
@@ -36,23 +35,23 @@
       }
     ],
     "achievement": {
-      "id": "https://oipy-teacher.github.io/badges/public/badge-classes/c95db718-d122-497b-9ff3-eac7fceb9d29",
+      "id": "https://oipy-teacher.github.io/badges/public/badge-classes/88ecaf4b-6a7b-482c-be2b-bb4d2ab6cd42",
       "type": [
         "Achievement"
       ],
-      "name": "Fix確認バッジ",
-      "description": "safe-mode修正後",
+      "name": "公開URL確認",
+      "description": "Fix後",
       "criteria": {
-        "id": "https://oipy-teacher.github.io/badges/public/badge-classes/c95db718-d122-497b-9ff3-eac7fceb9d29#criteria",
+        "id": "https://oipy-teacher.github.io/badges/public/badge-classes/88ecaf4b-6a7b-482c-be2b-bb4d2ab6cd42#criteria",
         "narrative": "完了"
       }
     }
   },
   "credentialStatus": {
-    "id": "https://oipy-teacher.github.io/badges/public/status-list/61278d2c-17b0-4372-9185-af403892cca8#2",
-    "type": "StatusList2021Entry",
+    "id": "https://oipy-teacher.github.io/badges/public/status-list/61278d2c-17b0-4372-9185-af403892cca8#4",
+    "type": "BitstringStatusListEntry",
     "statusPurpose": "revocation",
-    "statusListIndex": "2",
+    "statusListIndex": "4",
     "statusListCredential": "https://oipy-teacher.github.io/badges/public/status-list/61278d2c-17b0-4372-9185-af403892cca8"
   },
   "proof": {
@@ -61,6 +60,6 @@
     "verificationMethod": "did:web:oipy-teacher.github.io:badges:public:issuers:61278d2c-17b0-4372-9185-af403892cca8#key-0",
     "cryptosuite": "eddsa-rdfc-2022",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z4gnc2FjCx5WkFLgvm6enHABPWCZvxH4mfgWe34oaeFr6aapxfKSUyWBgFshpX6wh8z7aLDqogyNmibiMU6HSWATF"
+    "proofValue": "z5ZoPFSqbhfgRjgVpbVeQ3VZFz2dtLA9QLm9R4hiNFHREMUeTrN8gtxtEXAG16RVw8vmJTFRFasVpvUbtZZph1d1T"
   }
 }

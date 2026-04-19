@@ -57,10 +57,10 @@
   },
   "proof": {
     "type": "DataIntegrityProof",
-    "created": "2026-04-19T12:29:24Z",
+    "created": "2026-04-19T12:56:33Z",
     "verificationMethod": "did:web:oipy-teacher.github.io:badges:public:issuers:009c3378-da1a-4665-a6e9-d4cf03c924f1#key-0",
     "cryptosuite": "eddsa-rdfc-2022",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z4PE9aqikPUNFtKbGD7FWdjXeffmambpH6mMPsKD9FN3nhKSxJ4acq6oxdPcyr2fSm5JkauRVn8LoKEix1bq3MZ4a"
+    "proofValue": "zjonTAskf6EKV6PcNuA5bXSbp38HAYqc3o5CuCYWiPiJRuSf4Hv4JBD2HXZZ4vRHYjxDeNmuobbZYcav3yy25cVG"
   }
 }

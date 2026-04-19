@@ -1,10 +1,9 @@
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    "https://w3id.org/vc/status-list/2021/v1"
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
-  "id": "https://oipy-teacher.github.io/badges/public/assertions/bf285721-e481-428d-896f-8ddfc05a4842",
+  "id": "https://oipy-teacher.github.io/badges/public/assertions/22bd537e-196c-4b1d-b02d-e5bfe515d28a",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
@@ -18,13 +17,13 @@
     "url": "https://oipy-teacher.github.io/badges/public/issuers/627ce267-cac2-4ce7-92c5-49e2a04cd996",
     "email": "pc.no.address.1031@gmail.com"
   },
-  "validFrom": "2026-04-19T12:28:25.554Z",
+  "validFrom": "2026-04-19T12:48:25.455Z",
   "name": "最終テスト",
   "credentialSubject": {
     "type": [
       "AchievementSubject"
     ],
-    "id": "urn:uuid:bf285721-e481-428d-896f-8ddfc05a4842",
+    "id": "urn:uuid:22bd537e-196c-4b1d-b02d-e5bfe515d28a",
     "identifier": [
       {
         "type": "IdentityObject",
@@ -75,14 +74,13 @@
           "requiredLevel": "合格"
         }
       ]
-    },
-    "narrative": "完了するかな"
+    }
   },
   "credentialStatus": {
-    "id": "https://oipy-teacher.github.io/badges/public/status-list/627ce267-cac2-4ce7-92c5-49e2a04cd996#0",
-    "type": "StatusList2021Entry",
+    "id": "https://oipy-teacher.github.io/badges/public/status-list/627ce267-cac2-4ce7-92c5-49e2a04cd996#1",
+    "type": "BitstringStatusListEntry",
     "statusPurpose": "revocation",
-    "statusListIndex": "0",
+    "statusListIndex": "1",
     "statusListCredential": "https://oipy-teacher.github.io/badges/public/status-list/627ce267-cac2-4ce7-92c5-49e2a04cd996"
   },
   "proof": {
@@ -91,6 +89,6 @@
     "verificationMethod": "did:web:oipy-teacher.github.io:badges:public:issuers:627ce267-cac2-4ce7-92c5-49e2a04cd996#key-0",
     "cryptosuite": "eddsa-rdfc-2022",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z27xzQzBNLNq2Arnaa6FYsYyVHRzxht6wqwUebVGVvxbCdyFKe4RHXcVgGmWRQjFPFEPgijR8cwmiNoa54vFQhzbe"
+    "proofValue": "zGee7GBGx5U3dfq68zdggnoyArrNRv4LLXi5YhioZJnpyM7gzqRuhXFMNBb2pQKsD44QdQ2RQjx4rFWPhEGuaihn"
   }
 }

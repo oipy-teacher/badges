@@ -1,0 +1,16 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "https://oipy-teacher.github.io/badges/public/badge-classes/88ecaf4b-6a7b-482c-be2b-bb4d2ab6cd42",
+  "type": [
+    "Achievement"
+  ],
+  "name": "公開URL確認",
+  "description": "Fix後",
+  "criteria": {
+    "id": "https://oipy-teacher.github.io/badges/public/badge-classes/88ecaf4b-6a7b-482c-be2b-bb4d2ab6cd42#criteria",
+    "narrative": "完了"
+  }
+}

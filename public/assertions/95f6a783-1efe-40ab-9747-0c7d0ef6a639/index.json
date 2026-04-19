@@ -1,10 +1,9 @@
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    "https://w3id.org/vc/status-list/2021/v1"
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
-  "id": "https://oipy-teacher.github.io/badges/public/assertions/b4eae179-bc87-4973-a642-035ad5938ec6",
+  "id": "https://oipy-teacher.github.io/badges/public/assertions/95f6a783-1efe-40ab-9747-0c7d0ef6a639",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
@@ -19,40 +18,40 @@
     "email": "test@example.ne.jp",
     "description": "テストテストテスト"
   },
-  "validFrom": "2026-04-19T11:17:29.040Z",
-  "name": "Fix確認バッジ",
+  "validFrom": "2026-04-19T12:45:20.547Z",
+  "name": "BitstringStatusList確認",
   "credentialSubject": {
     "type": [
       "AchievementSubject"
     ],
-    "id": "urn:uuid:b4eae179-bc87-4973-a642-035ad5938ec6",
+    "id": "urn:uuid:95f6a783-1efe-40ab-9747-0c7d0ef6a639",
     "identifier": [
       {
         "type": "IdentityObject",
         "identityType": "emailAddress",
-        "identityHash": "sha256$c946e12468a4359f09fd3bea36be9a4ee00e78e29c648ab30ef53233aab76048",
+        "identityHash": "sha256$404e84c9b0c3ae6245258415ed546d5b72b968382f9c17caee258e81e685dba2",
         "hashed": true,
         "salt": "e4c256b7a02a039beec7e1335dd7dc14"
       }
     ],
     "achievement": {
-      "id": "https://oipy-teacher.github.io/badges/public/badge-classes/c95db718-d122-497b-9ff3-eac7fceb9d29",
+      "id": "https://oipy-teacher.github.io/badges/public/badge-classes/ca23cc99-905f-41ea-b9ce-c6b065a43f4c",
       "type": [
         "Achievement"
       ],
-      "name": "Fix確認バッジ",
-      "description": "safe-mode修正後",
+      "name": "BitstringStatusList確認",
+      "description": "最終版",
       "criteria": {
-        "id": "https://oipy-teacher.github.io/badges/public/badge-classes/c95db718-d122-497b-9ff3-eac7fceb9d29#criteria",
+        "id": "https://oipy-teacher.github.io/badges/public/badge-classes/ca23cc99-905f-41ea-b9ce-c6b065a43f4c#criteria",
         "narrative": "完了"
       }
     }
   },
   "credentialStatus": {
-    "id": "https://oipy-teacher.github.io/badges/public/status-list/61278d2c-17b0-4372-9185-af403892cca8#2",
-    "type": "StatusList2021Entry",
+    "id": "https://oipy-teacher.github.io/badges/public/status-list/61278d2c-17b0-4372-9185-af403892cca8#5",
+    "type": "BitstringStatusListEntry",
     "statusPurpose": "revocation",
-    "statusListIndex": "2",
+    "statusListIndex": "5",
     "statusListCredential": "https://oipy-teacher.github.io/badges/public/status-list/61278d2c-17b0-4372-9185-af403892cca8"
   },
   "proof": {
@@ -61,6 +60,6 @@
     "verificationMethod": "did:web:oipy-teacher.github.io:badges:public:issuers:61278d2c-17b0-4372-9185-af403892cca8#key-0",
     "cryptosuite": "eddsa-rdfc-2022",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z4gnc2FjCx5WkFLgvm6enHABPWCZvxH4mfgWe34oaeFr6aapxfKSUyWBgFshpX6wh8z7aLDqogyNmibiMU6HSWATF"
+    "proofValue": "z5gE8bQpvhJTu4bd5vbULNjVRczNuZ6uHySZhqm523pj864cxH882WTGKdaXQjucLnXYFxhdzbksH48GV7jDaZnRn"
   }
 }
