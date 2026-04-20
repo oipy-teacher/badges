@@ -1,0 +1,20 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "https://oipy-teacher.github.io/badges/public/badge-classes/33444bb4-b642-4a8c-b428-b27a20e81802.json",
+  "type": [
+    "Achievement"
+  ],
+  "name": "1edtech!",
+  "description": "１1edテック認証チャレンジ",
+  "criteria": {
+    "id": "https://oipy-teacher.github.io/badges/public/badge-classes/33444bb4-b642-4a8c-b428-b27a20e81802.json#criteria",
+    "narrative": "ベアリファイ"
+  },
+  "image": {
+    "id": "https://oipy-teacher.github.io/badges/public/uploads/4485c238-2aa8-48d0-ad9f-302bc76e24dc.png",
+    "type": "Image"
+  }
+}
