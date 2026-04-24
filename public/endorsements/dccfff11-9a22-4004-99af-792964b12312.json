@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "https://oipy-teacher.github.io/badges/public/endorsements/dccfff11-9a22-4004-99af-792964b12312.json",
+  "type": [
+    "VerifiableCredential",
+    "EndorsementCredential"
+  ],
+  "name": "Endorsement by おいぴー先生",
+  "issuer": {
+    "id": "did:web:127.0.0.1:3456:public:issuers:627ce267-cac2-4ce7-92c5-49e2a04cd996",
+    "type": [
+      "Profile"
+    ],
+    "name": "おいぴー先生",
+    "url": "https://oipy-teacher.github.io/badges/public/issuers/627ce267-cac2-4ce7-92c5-49e2a04cd996",
+    "email": "pc.no.address.1031@gmail.com"
+  },
+  "validFrom": "2026-04-24T06:54:37.642Z",
+  "credentialSubject": {
+    "id": "did:web:127.0.0.1:3456:public:issuers:86856053-1efd-4d68-806c-bc76cfa3ea63",
+    "type": [
+      "EndorsementSubject"
+    ],
+    "endorsementComment": "このバッジはテストを通過しました"
+  },
+  "proof": {
+    "type": "DataIntegrityProof",
+    "created": "2026-04-24T06:54:37Z",
+    "verificationMethod": "did:web:127.0.0.1:3456:public:issuers:627ce267-cac2-4ce7-92c5-49e2a04cd996#key-0",
+    "cryptosuite": "eddsa-rdfc-2022",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z2tEafo2cPs263prJs5dqTp2cAnRcBSLp6oij7xEi1ArXjU96Zbgy2UmU1AYSLFzx67CK12ydeKneHSZTDuqPNhWr"
+  }
+}

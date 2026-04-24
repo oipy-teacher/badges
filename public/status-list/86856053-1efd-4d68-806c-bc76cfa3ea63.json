@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "id": "https://oipy-teacher.github.io/badges/public/status-list/86856053-1efd-4d68-806c-bc76cfa3ea63.json",
+  "type": [
+    "VerifiableCredential",
+    "BitstringStatusListCredential"
+  ],
+  "issuer": "did:web:oipy-teacher.github.io:badges:public:issuers:86856053-1efd-4d68-806c-bc76cfa3ea63",
+  "validFrom": "2026-04-24T07:03:29.308Z",
+  "credentialSubject": {
+    "id": "https://oipy-teacher.github.io/badges/public/status-list/86856053-1efd-4d68-806c-bc76cfa3ea63.json#list",
+    "type": "BitstringStatusList",
+    "statusPurpose": "revocation",
+    "encodedList": "uH4sIAAAAAAAAE-3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAIC3AYbSVKsAQAAA"
+  },
+  "proof": [
+    {
+      "type": "DataIntegrityProof",
+      "created": "2026-04-24T07:03:29Z",
+      "verificationMethod": "did:web:oipy-teacher.github.io:badges:public:issuers:86856053-1efd-4d68-806c-bc76cfa3ea63#key-0",
+      "cryptosuite": "eddsa-rdfc-2022",
+      "proofPurpose": "assertionMethod",
+      "proofValue": "zHhb1knA1FNt6GPspFrr9u5Q2DTT3UwT4DT3MdGsBi7Q6mYjqQ1dCpCsZ9SzcBdmBMxuYgNYGQxTHar8rQG4EHga"
+    }
+  ]
+}

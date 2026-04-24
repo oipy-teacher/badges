@@ -1,0 +1,164 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "https://oipy-teacher.github.io/badges/public/assertions/955debc0-d127-46a0-99d0-8d6303525c0f.json",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "did:web:oipy-teacher.github.io:badges:public:issuers:86856053-1efd-4d68-806c-bc76cfa3ea63",
+    "type": [
+      "Profile"
+    ],
+    "name": "テスト発行最終回",
+    "url": "https://oipy-teacher.github.io/badges/public/issuers/86856053-1efd-4d68-806c-bc76cfa3ea63",
+    "email": "pc.no.address.1031@gmail.com",
+    "description": "テストテストテスト",
+    "image": "https://oipy-teacher.github.io/badges/public/uploads/2988adb0-f2ba-40df-a791-f1d353299fbe.png",
+    "endorsement": [
+      {
+        "@context": [
+          "https://www.w3.org/ns/credentials/v2",
+          "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+        ],
+        "id": "https://oipy-teacher.github.io/badges/public/endorsements/dccfff11-9a22-4004-99af-792964b12312.json",
+        "type": [
+          "VerifiableCredential",
+          "EndorsementCredential"
+        ],
+        "name": "Endorsement by おいぴー先生",
+        "issuer": {
+          "id": "did:web:127.0.0.1:3456:public:issuers:627ce267-cac2-4ce7-92c5-49e2a04cd996",
+          "type": [
+            "Profile"
+          ],
+          "name": "おいぴー先生",
+          "url": "https://oipy-teacher.github.io/badges/public/issuers/627ce267-cac2-4ce7-92c5-49e2a04cd996",
+          "email": "pc.no.address.1031@gmail.com"
+        },
+        "validFrom": "2026-04-24T06:54:37.642Z",
+        "credentialSubject": {
+          "id": "did:web:127.0.0.1:3456:public:issuers:86856053-1efd-4d68-806c-bc76cfa3ea63",
+          "type": [
+            "EndorsementSubject"
+          ],
+          "endorsementComment": "このバッジはテストを通過しました"
+        },
+        "proof": {
+          "type": "DataIntegrityProof",
+          "created": "2026-04-24T06:54:37Z",
+          "verificationMethod": "did:web:127.0.0.1:3456:public:issuers:627ce267-cac2-4ce7-92c5-49e2a04cd996#key-0",
+          "cryptosuite": "eddsa-rdfc-2022",
+          "proofPurpose": "assertionMethod",
+          "proofValue": "z2tEafo2cPs263prJs5dqTp2cAnRcBSLp6oij7xEi1ArXjU96Zbgy2UmU1AYSLFzx67CK12ydeKneHSZTDuqPNhWr"
+        }
+      }
+    ]
+  },
+  "validFrom": "2026-04-24T06:59:18.721Z",
+  "name": "ファイナルテストバッジ",
+  "credentialSubject": {
+    "type": [
+      "AchievementSubject"
+    ],
+    "id": "urn:uuid:955debc0-d127-46a0-99d0-8d6303525c0f",
+    "identifier": [
+      {
+        "type": "IdentityObject",
+        "identityType": "emailAddress",
+        "identityHash": "sha256$a11a28d21d4a46f046fb0af515beeef9be276d938d124ad7b55405711ba63c8a",
+        "hashed": true,
+        "salt": "40f67d93c0e1d4252ce3260d90310b2d"
+      }
+    ],
+    "achievement": {
+      "id": "https://oipy-teacher.github.io/badges/public/badge-classes/11066c45-f9ae-4875-ac5f-0fbc4bfae02f.json",
+      "type": [
+        "Achievement"
+      ],
+      "name": "ファイナルテストバッジ",
+      "description": "オープンバッジ作成完了の証",
+      "criteria": {
+        "id": "https://oipy-teacher.github.io/badges/public/badge-classes/11066c45-f9ae-4875-ac5f-0fbc4bfae02f.json#criteria",
+        "narrative": "受け取れい！！"
+      },
+      "image": {
+        "id": "https://oipy-teacher.github.io/badges/public/uploads/1e8aaa64-0df7-477e-9698-3f3007cef069.png",
+        "type": "Image"
+      },
+      "tag": [
+        "AI",
+        "完成",
+        "バッジ",
+        "てすと"
+      ],
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetName": "バッジ作成完了",
+          "targetUrl": "https://www.digital.go.jp/policies/digital_promotion_staff_openbadge",
+          "targetDescription": "バッジが完成しました",
+          "targetFramework": "バッジ発行",
+          "targetCode": "A111"
+        },
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetName": "てすと",
+          "targetUrl": "https://recept.earth/didvc_media/openbadge3/",
+          "targetDescription": "一応追加",
+          "targetFramework": "できるかな",
+          "targetCode": "できたよ"
+        }
+      ],
+      "resultDescription": [
+        {
+          "id": "https://oipy-teacher.github.io/badges/public/badge-classes/11066c45-f9ae-4875-ac5f-0fbc4bfae02f.json#result-0",
+          "type": [
+            "ResultDescription"
+          ],
+          "name": "最終発行",
+          "resultType": "Status",
+          "requiredValue": "受け取り完了",
+          "requiredLevel": "受け取り済み",
+          "allowedValue": [
+            "受け取り完了",
+            "受け取り失敗"
+          ]
+        }
+      ]
+    },
+    "narrative": "優秀者として表彰",
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "value": "95"
+      }
+    ]
+  },
+  "credentialStatus": {
+    "id": "https://oipy-teacher.github.io/badges/public/status-list/86856053-1efd-4d68-806c-bc76cfa3ea63.json#1",
+    "type": "BitstringStatusListEntry",
+    "statusPurpose": "revocation",
+    "statusListIndex": "1",
+    "statusListCredential": "https://oipy-teacher.github.io/badges/public/status-list/86856053-1efd-4d68-806c-bc76cfa3ea63.json"
+  },
+  "proof": [
+    {
+      "type": "DataIntegrityProof",
+      "created": "2026-04-24T07:03:29Z",
+      "verificationMethod": "did:web:oipy-teacher.github.io:badges:public:issuers:86856053-1efd-4d68-806c-bc76cfa3ea63#key-0",
+      "cryptosuite": "eddsa-rdfc-2022",
+      "proofPurpose": "assertionMethod",
+      "proofValue": "zcoE9ag4CFGcf4Xy3DAMWg19FZtBYJ9ceTTadX2EyomU46NgQhEBCa2uyn9x4YM2cpaKHcPpyHap513ifoZdxBZ2"
+    }
+  ]
+}

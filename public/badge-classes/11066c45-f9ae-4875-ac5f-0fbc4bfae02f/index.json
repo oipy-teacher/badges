@@ -1,0 +1,64 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "https://oipy-teacher.github.io/badges/public/badge-classes/11066c45-f9ae-4875-ac5f-0fbc4bfae02f.json",
+  "type": [
+    "Achievement"
+  ],
+  "name": "ファイナルテストバッジ",
+  "description": "オープンバッジ作成完了の証",
+  "criteria": {
+    "id": "https://oipy-teacher.github.io/badges/public/badge-classes/11066c45-f9ae-4875-ac5f-0fbc4bfae02f.json#criteria",
+    "narrative": "受け取れい！！"
+  },
+  "image": {
+    "id": "https://oipy-teacher.github.io/badges/public/uploads/1e8aaa64-0df7-477e-9698-3f3007cef069.png",
+    "type": "Image"
+  },
+  "tag": [
+    "AI",
+    "完成",
+    "バッジ",
+    "てすと"
+  ],
+  "alignment": [
+    {
+      "type": [
+        "Alignment"
+      ],
+      "targetName": "バッジ作成完了",
+      "targetUrl": "https://www.digital.go.jp/policies/digital_promotion_staff_openbadge",
+      "targetDescription": "バッジが完成しました",
+      "targetFramework": "バッジ発行",
+      "targetCode": "A111"
+    },
+    {
+      "type": [
+        "Alignment"
+      ],
+      "targetName": "てすと",
+      "targetUrl": "https://recept.earth/didvc_media/openbadge3/",
+      "targetDescription": "一応追加",
+      "targetFramework": "できるかな",
+      "targetCode": "できたよ"
+    }
+  ],
+  "resultDescription": [
+    {
+      "id": "https://oipy-teacher.github.io/badges/public/badge-classes/11066c45-f9ae-4875-ac5f-0fbc4bfae02f.json#result-0",
+      "type": [
+        "ResultDescription"
+      ],
+      "name": "最終発行",
+      "resultType": "Status",
+      "requiredValue": "受け取り完了",
+      "requiredLevel": "受け取り済み",
+      "allowedValue": [
+        "受け取り完了",
+        "受け取り失敗"
+      ]
+    }
+  ]
+}
