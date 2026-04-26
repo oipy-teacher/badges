@@ -17,7 +17,10 @@
     "url": "https://oipy-teacher.github.io/badges/public/issuers/86856053-1efd-4d68-806c-bc76cfa3ea63",
     "email": "pc.no.address.1031@gmail.com",
     "description": "テストテストテスト",
-    "image": "https://oipy-teacher.github.io/badges/public/uploads/2988adb0-f2ba-40df-a791-f1d353299fbe.png",
+    "image": {
+      "id": "https://oipy-teacher.github.io/badges/public/uploads/2988adb0-f2ba-40df-a791-f1d353299fbe.png",
+      "type": "Image"
+    },
     "endorsement": [
       {
         "@context": [
@@ -47,14 +50,16 @@
           ],
           "endorsementComment": "このバッジはテストを通過しました"
         },
-        "proof": {
-          "type": "DataIntegrityProof",
-          "created": "2026-04-24T06:54:37Z",
-          "verificationMethod": "did:web:127.0.0.1:3456:public:issuers:627ce267-cac2-4ce7-92c5-49e2a04cd996#key-0",
-          "cryptosuite": "eddsa-rdfc-2022",
-          "proofPurpose": "assertionMethod",
-          "proofValue": "z2tEafo2cPs263prJs5dqTp2cAnRcBSLp6oij7xEi1ArXjU96Zbgy2UmU1AYSLFzx67CK12ydeKneHSZTDuqPNhWr"
-        }
+        "proof": [
+          {
+            "type": "DataIntegrityProof",
+            "created": "2026-04-24T06:54:37Z",
+            "verificationMethod": "did:web:127.0.0.1:3456:public:issuers:627ce267-cac2-4ce7-92c5-49e2a04cd996#key-0",
+            "cryptosuite": "eddsa-rdfc-2022",
+            "proofPurpose": "assertionMethod",
+            "proofValue": "z2tEafo2cPs263prJs5dqTp2cAnRcBSLp6oij7xEi1ArXjU96Zbgy2UmU1AYSLFzx67CK12ydeKneHSZTDuqPNhWr"
+          }
+        ]
       }
     ]
   },
@@ -145,11 +150,11 @@
   "proof": [
     {
       "type": "DataIntegrityProof",
-      "created": "2026-04-24T07:03:29Z",
+      "created": "2026-04-26T01:47:50Z",
       "verificationMethod": "did:web:oipy-teacher.github.io:badges:public:issuers:86856053-1efd-4d68-806c-bc76cfa3ea63#key-0",
       "cryptosuite": "eddsa-rdfc-2022",
       "proofPurpose": "assertionMethod",
-      "proofValue": "z5z51NWc5jVS2b83iPr4NUbXeTTvMtPf7bvKPJS7CRV2CemPyJeoojbfq124riAQ7uXGsMcRTuwUeiUP2xMCDPsZs"
+      "proofValue": "z3AfT8PnQCGjmMNJYkjsMrtvgNxmGXsqYuCK999HkuLz2QEJvaySQapWjBreVnksFFf7zAsBhJfLLqbxVu9PZ6c2"
     }
   ]
 }
