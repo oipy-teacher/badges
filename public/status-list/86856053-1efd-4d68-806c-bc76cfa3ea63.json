@@ -8,7 +8,7 @@
     "BitstringStatusListCredential"
   ],
   "issuer": "did:web:oipy-teacher.github.io:badges:public:issuers:86856053-1efd-4d68-806c-bc76cfa3ea63",
-  "validFrom": "2026-04-26T01:47:50.848Z",
+  "validFrom": "2026-04-26T02:30:29.778Z",
   "credentialSubject": {
     "id": "https://oipy-teacher.github.io/badges/public/status-list/86856053-1efd-4d68-806c-bc76cfa3ea63.json#list",
     "type": "BitstringStatusList",
@@ -18,11 +18,11 @@
   "proof": [
     {
       "type": "DataIntegrityProof",
-      "created": "2026-04-26T01:47:50Z",
+      "created": "2026-04-26T02:30:29Z",
       "verificationMethod": "did:web:oipy-teacher.github.io:badges:public:issuers:86856053-1efd-4d68-806c-bc76cfa3ea63#key-0",
       "cryptosuite": "eddsa-rdfc-2022",
       "proofPurpose": "assertionMethod",
-      "proofValue": "z2oY9TCPaQbMydpuZwUs3nkP2fohVXAPFT2aXUkPqoFu6RbuPWxs7mGeioMD256FhxmoENr7ehEgcBDxxQX3vTuK5"
+      "proofValue": "z21fdvB6gpNFhiNr9SyQFuUB4ckDzmKPtztkNRQncg41Zt5TMUQmNru47JDQSVvoTUBsjqyRFi29CxDAjCwKBFwiR"
     }
   ]
 }

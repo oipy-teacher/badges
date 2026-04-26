@@ -159,11 +159,11 @@
   "proof": [
     {
       "type": "DataIntegrityProof",
-      "created": "2026-04-26T01:47:50Z",
+      "created": "2026-04-26T02:30:29Z",
       "verificationMethod": "did:web:oipy-teacher.github.io:badges:public:issuers:86856053-1efd-4d68-806c-bc76cfa3ea63#key-0",
       "cryptosuite": "eddsa-rdfc-2022",
       "proofPurpose": "assertionMethod",
-      "proofValue": "z3FdSKgg2WqMRo6zD8mJLLaPaiPJe6Mhx2uRjqhqV8F21Cw6AtSP7UV13NsDiacGWKwMG6Xk1YKjr3KbN8pSP3ZzK"
+      "proofValue": "z2USf6c2pFZ5LtuDG41PMDsuyH44m6hdWTCB7YDebCBahbGsJ12fM1nTvPe8aCNtD3nbshGWFrSSGALLVwgbJcka2"
     }
   ]
 }
